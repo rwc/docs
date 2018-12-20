@@ -1,2 +1,2 @@
-# chef
-Chef musings, guides, and code.
+# docs
+musings, guides, and code.
