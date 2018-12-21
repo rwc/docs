@@ -39,7 +39,7 @@ In this text file you'll have a per-cookbook, line-by-line breakdown of the exac
 
 So now you have your text file filled with the deprecations that need fixin'. I like to perform a frequency analysis to see just how effected my estate is. To do so:
 
-```
+```bash
 $ grep -e "^FC*" /tmp/all-cookbook-deprecations.txt | cut -d " " -f 1,1 | sort | uniq -c
 ```
 
