@@ -1,6 +1,7 @@
 # Remediating Chef Client Deprecations in Chef Cookbooks
 
 ##Intro
+
 It's that time of year when the new [Chef Client](https://github.com/chef/chef), [ChefDK](https://github.com/chef/chef-dk), and [Chef Workstation](https://github.com/chef/chef-workstation) releases are hitting the internets. The Security and Compliance teams are knocking on your door as they've noticed new software has landed on your company-issued laptop. The Windows team is excited as there's no doubt new resources introduced to the core that will enable them to _finally_ start managing their platform.
 
 But you, you're the linux/unix admin and you've been doing this for _years_. You have hundreds of cookbooks. Your cookbooks have dependencies. Their dependencies have dependencies. And now there's dreaded deprecations that have been introduced that need to be fixed up to upgrade to the latest kit.
