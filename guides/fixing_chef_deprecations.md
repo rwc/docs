@@ -9,7 +9,7 @@ But you, you're the linux/unix admin and you've been doing this for _years_. You
 As I see in most enterprises, the questions that need answering are:
 
 1. Why should we move to the latest kit?
-2. How do we know which deprecations we're effected by?
+2. How do we know which deprecations we're affected by?
 3. Which deprecations do I fix first?
 4. Will fixing these deprecations break our current chef-client runs and pipeline build runners?
 5. How should I release this change in a controlled fashion?
@@ -25,11 +25,11 @@ Let's get started...
 4. (Optional) [Docker Desktop](https://www.docker.com/products/docker-desktop) for your workstation
 
 ## Q&A
-### How do we know which deprecations we're effected by?
+### How do we know which deprecations we're affected by?
 
 Great question! In the past you needed to download multiple versions of ChefDK that mapped to the Chef Infra Client version you were going from, to the version you were going to. Then you'd run foodcritic against each cookbook and start traipsing through the output.
 
-With the introduction of [Chef Cookstyle](https://github.com/chef/cookstyle), that's not a thing anymore! We can simply set a target version (in this example we'll be going from 12 to 15) and get rolling! Please check out the [Chef Cookstyle documenation](https://docs.chef.io/cookstyle/) for further questions!
+With the introduction of [Chef Cookstyle](https://github.com/chef/cookstyle), that's not a thing anymore! We can simply set a target version (in this example we'll be going from 12 to 15) and get rolling! Please check out the [Chef Cookstyle documentation](https://docs.chef.io/cookstyle/) for further questions!
 
 Ok, now what?
 
